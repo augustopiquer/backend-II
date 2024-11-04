@@ -1,0 +1,11 @@
+.env.dev:
+PORT=3000
+URI=mongodb+srv://acccarolina:qSDoqtjEi0cl76v2@cluster0.5cwsly0.mongodb.net/development?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=
+SESSION_SECRET=
+
+.env.prod:
+PORT=8080
+URI=mongodb+srv://acccarolina:qSDoqtjEi0cl76v2@cluster0.5cwsly0.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=
+SESSION_SECRET=
